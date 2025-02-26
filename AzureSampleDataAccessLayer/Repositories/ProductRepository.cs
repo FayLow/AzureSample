@@ -11,7 +11,7 @@ namespace AzureSampleDataAccessLayer.Repositories
 {
     public class ProductRepository : Repository<Product>, IProductRepository
     {
-        public ProductRepository(SampleDbContext context) : base(context) { }
+        public ProductRepository(ApplicationDBContext context) : base(context) { }
 
         public async Task<Product> GetByProductNumberAsync(string productNumber)
             => await _dbSet.FirstOrDefaultAsync(p => p.ProductNumber == productNumber);

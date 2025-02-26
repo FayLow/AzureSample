@@ -11,10 +11,10 @@ namespace AzureSampleDataAccessLayer.Repositories
 {
     public class Repository<T> : IRepository<T> where T: class
     {
-        protected readonly SampleDbContext _context;
+        protected readonly ApplicationDBContext _context;
         protected readonly DbSet<T> _dbSet;
 
-        public Repository(SampleDbContext context) 
+        public Repository(ApplicationDBContext context) 
         {
             _context = context;
             _dbSet = context.Set<T>();

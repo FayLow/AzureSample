@@ -27,7 +27,7 @@ else
     connection = Environment.GetEnvironmentVariable("AZURE_SQL_CONNECTIONSTRING");
 }
 
-builder.Services.AddDbContext<SampleDbContext>(options => options.UseSqlServer(connection));
+builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(connection));
 
 var app = builder.Build();
 

@@ -12,10 +12,10 @@ namespace AzureSampleWebServices.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly SampleDbContext _context;
+        private readonly ApplicationDBContext _context;
         private readonly ProductRepository _repository;
 
-        public ProductsController(SampleDbContext context)
+        public ProductsController(ApplicationDBContext context)
         {
             _context = context;
             _repository = new ProductRepository(context);

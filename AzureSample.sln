@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSampleWebServices", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSampleDataAccessLayer", "AzureSampleDataAccessLayer\AzureSampleDataAccessLayer.csproj", "{709C6379-400E-4F21-B868-28D36BBD1775}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSampleFunction", "AzureSampleFunction\AzureSampleFunction.csproj", "{940877DD-E6E5-4CB2-92C4-8DF03FDE1AD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{709C6379-400E-4F21-B868-28D36BBD1775}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{709C6379-400E-4F21-B868-28D36BBD1775}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{709C6379-400E-4F21-B868-28D36BBD1775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940877DD-E6E5-4CB2-92C4-8DF03FDE1AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940877DD-E6E5-4CB2-92C4-8DF03FDE1AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940877DD-E6E5-4CB2-92C4-8DF03FDE1AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940877DD-E6E5-4CB2-92C4-8DF03FDE1AD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
